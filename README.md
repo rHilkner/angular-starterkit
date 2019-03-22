@@ -5,7 +5,11 @@ This is a basic StarterKit for an Angular project. It has already imported Angul
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
 ## Possible next updates
-- Ipsum lorem dota... (TO-DO)
+- Create in src/assets/css/
+    - ./0-tools: fonts.sass (importing from google-fonts, etc)
+    - ./1-base: typography.sass & theme.sass (angular material theme with <your app> color - developer must adapt here for his/her project)
+    - Import those in styles.sass
+- Add Firebase module for basic Firebase operations
 
 ## Development server
 
