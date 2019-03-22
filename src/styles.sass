@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+// This is the only global stylesheet file and the styles here will be applied to every html/pug file of the application.
+// This is intended to ONLY @import other files, not define any style itself.
+
+// 0 - TOOLS
+@import "assets/css/0-tools/normalize"
+@import "assets/css/0-tools/reset"
+
+// 1 - BASE
+@import "assets/css/1-base/base"
+@import "assets/css/1-base/material"
+
+// 2 - PAGES
+// Each page has components inside of it and their management and imports are all handled by Angular

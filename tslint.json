@@ -13,6 +13,11 @@
       true,
       "rxjs/Rx"
     ],
+    "indent": [
+      true,
+      "spaces",
+      4
+    ],
     "interface-name": false,
     "max-classes-per-file": false,
     "max-line-length": [
@@ -21,8 +26,7 @@
     ],
     "member-access": false,
     "member-ordering": [
-      true,
-      {
+      true, {
         "order": [
           "static-field",
           "instance-field",
