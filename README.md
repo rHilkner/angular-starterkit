@@ -1,6 +1,11 @@
-# StarterKit
+# Angular StarterKit
+
+This is a basic StarterKit for an Angular project. It has already imported Angular Material, configured some basic routing and structured its directories in a organized way than the Angular CLI provide. In src/assets/css we can find normalize.scss and reset.scss for normalizing the project between browsers and then removing all the default styles from html. The /app folder has /modules (in which every module is a page, and carries the submodules of that page) and /shared/\[components|modules] (for other modules|components shared between pages). The project is set up to use Pug and Sass.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+
+## Possible next updates
+- Ipsum lorem dota... (TO-DO)
 
 ## Development server
 
