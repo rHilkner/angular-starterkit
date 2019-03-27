@@ -3,22 +3,17 @@
 This is a basic StarterKit for an Angular project. You can clone this repo and will be ready for development. The motivation for making this is because after setting up many Angular projects I realized all of them had a similar folder structure and imports, so for the next projects I can just clone this repo and everything will be set up the way I personally like.
 
 ## Configs
-**0.** This project was generated with [Angular CLI](https://github.com/angular/angular-cli) "~7.3.6" using Sass and with basic routing configured
-
-**1.** Angular Material "^7.3.5"
-
-**2.** Angular Flex-Layout "^7.0.0-beta.24"
-
-**3.** Pug Loader "^2.4.0" - for using .pug instead of .html
-
-**4.** HammerJS "^2.0.8" - for mobile gestures
+0. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) "~7.3.6" using Sass and with basic routing configured
+1. Angular Material "^7.3.5"
+2. Angular Flex-Layout "^7.0.0-beta.24"
+3. Pug Loader "^2.4.0" - for using .pug instead of .html
+4. HammerJS "^2.0.8" - for mobile gestures
 
 ## Folder structure
-**1.** src/assets folder: subdivided between /css and /img folders.
+1. src/assets folder: subdivided between /css and /img folders.
 - src/assets/css folder has: 0-tools/normalize.scss for normalizing the project between browsers and 0-tools/reset.scss for removing all the default styles from html; 1-base/base.sass for basic html and body styles, 1-base/material.sass for customizing Material Design components (Angular Material), 1-base/theme.sass for customizing Angular Material basic theme, 1-base/typography.sass for defining basic typography (h1, h2, ..., hr, etc).
 - /img folder has: the favicon.ico and should have all images that will be included in the project (may be subdivided into subfolders also, depending on the project necessity).
-
-**2.** The src/app folder already has some basic empty pages, components, modules, routes and services with the identifiers .page, .component, .module, .routes, .service. Every .page and .route are @NgModules (as well as .modules), but the identifiers are used to find these files easier when developing.
+2. The src/app folder already has some basic empty pages, components, modules, routes and services with the identifiers .page, .component, .module, .routes, .service. Every .page and .route are @NgModules (as well as .modules), but the identifiers are used to find these files easier when developing.
 - This folder has the subfolders /pages that have the pages (with components, modules, services, etc) of the web applications and /shared that keeps modules and components shared between many pages.
 
 ## What the developer must change to begin development
