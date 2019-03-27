@@ -1,0 +1,17 @@
+@import "../0-tools/color-pallete"
+@import '~@angular/material/theming'
+
+// Be sure that you only ever include 'mat-core' mixin once!
+// it should not be included for each theme.
+@include mat-core()
+
+// Defining theme palettes
+$mat-palette-primary: mat-palette($palette-primary, default, lighter, darker)
+$mat-palette-accent: mat-palette($palette-accent, default, lighter, darker)
+$mat-palette-warn: mat-palette($mat-red)
+
+// Creating the theme object
+$mat-theme: mat-light-theme($mat-palette-primary, $mat-palette-accent, $mat-palette-warn)
+
+// Writing the theme to the Angular Material built-in mixin
+@include angular-material-theme($mat-theme)

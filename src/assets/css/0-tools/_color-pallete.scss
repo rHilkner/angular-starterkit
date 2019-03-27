@@ -1,0 +1,136 @@
+// Defining my custom color palette - using https://material.io/tools/color
+
+/* An Angular Material theme must have 5 color palettes: primary, accent, warn, foreground, background.
+ * Each palette must have a default, darker and lighter color.
+ * We'll let Angular Material generate foreground and background automatically. */
+
+// Primary color: random blue
+$palette-primary: (
+    default: #1962c6,
+    lighter: #60b2ff,
+    darker: #003995,
+    contrast: (
+        default: white,
+        lighter: black,
+        darker: white
+    )
+);
+
+// Accent color: random green
+$palette-accent: (
+    default: #13c799,
+    lighter: #62fbca,
+    darker: #00956b,
+    contrast: (
+        default: white,
+        lighter: black,
+        darker: white
+    )
+);
+
+
+// To use variables exactly like the ones from Angular Material, uncomment and use the variables below
+// By default a palette uses mat-palette(palette, default: 500, lighter: 100, darker: 700)
+// Which means it actually only uses 3 colors and not all of those listed
+
+//// Primary color is blue
+//$palette-primary: (
+//    50 : #e2f0f9,
+//    100 : #b7daf1,
+//    200 : #88c1e8,
+//    300 : #58a8de,
+//    400 : #3496d7,
+//    500 : #1083d0,
+//    600 : #0e7bcb,
+//    700 : #0c70c4,
+//    800 : #0966be,
+//    900 : #0553b3,
+//    A100 : #ddeaff,
+//    A200 : #aacbff,
+//    A400 : #77acff,
+//    A700 : #5e9dff,
+//    contrast: (
+//        50 : #000000,
+//        100 : #000000,
+//        200 : #000000,
+//        300 : #000000,
+//        400 : #000000,
+//        500 : #ffffff,
+//        600 : #ffffff,
+//        700 : #ffffff,
+//        800 : #ffffff,
+//        900 : #ffffff,
+//        A100 : #000000,
+//        A200 : #000000,
+//        A400 : #000000,
+//        A700 : #000000,
+//    )
+//);
+//
+//// Accent color is green
+//$palette-accent: (
+//    50 : #e3f8f3,
+//    100 : #b8eee0,
+//    200 : #89e3cc,
+//    300 : #5ad8b8,
+//    400 : #36cfa8,
+//    500 : #13c799,
+//    600 : #11c191,
+//    700 : #0eba86,
+//    800 : #0bb37c,
+//    900 : #06a66b,
+//    A100 : #d1ffec,
+//    A200 : #9effd7,
+//    A400 : #6bffc2,
+//    A700 : #52ffb7,
+//    contrast: (
+//        50 : #000000,
+//        100 : #000000,
+//        200 : #000000,
+//        300 : #000000,
+//        400 : #000000,
+//        500 : #000000,
+//        600 : #000000,
+//        700 : #000000,
+//        800 : #ffffff,
+//        900 : #ffffff,
+//        A100 : #000000,
+//        A200 : #000000,
+//        A400 : #000000,
+//        A700 : #000000,
+//    )
+//);
+//
+//// Background color is light blue
+//$palette-background: (
+//    50 : #f1f6f9,
+//    100 : #dde9f1,
+//    200 : #c7dae7,
+//    300 : #b0cbdd,
+//    400 : #9fc0d6,
+//    500 : #8eb5cf,
+//    600 : #86aeca,
+//    700 : #7ba5c3,
+//    800 : #719dbd,
+//    900 : #5f8db2,
+//    A100 : #ffffff,
+//    A200 : #ebf6ff,
+//    A400 : #b8dfff,
+//    A700 : #9fd4ff,
+//    contrast: (
+//        50 : #000000,
+//        100 : #000000,
+//        200 : #000000,
+//        300 : #000000,
+//        400 : #000000,
+//        500 : #000000,
+//        600 : #000000,
+//        700 : #000000,
+//        800 : #000000,
+//        900 : #000000,
+//        A100 : #000000,
+//        A200 : #000000,
+//        A400 : #000000,
+//        A700 : #000000,
+//    )
+//);

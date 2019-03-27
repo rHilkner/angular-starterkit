@@ -6,7 +6,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppRoutes } from './app.routes';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './shared/modules/material.module';
-import { HomeModule } from './modules/home/home.module';
+import { HomeModule } from './pages/home/home.module';
 
 @NgModule({
     declarations: [
