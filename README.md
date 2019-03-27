@@ -11,10 +11,10 @@ This is a basic StarterKit for an Angular project. You can clone this repo and w
 
 ## Folder structure
 1. src/assets folder: subdivided between /css and /img folders.
-- src/assets/css folder has: 0-tools/normalize.scss for normalizing the project between browsers and 0-tools/reset.scss for removing all the default styles from html; 1-base/base.sass for basic html and body styles, 1-base/material.sass for customizing Material Design components (Angular Material), 1-base/theme.sass for customizing Angular Material basic theme, 1-base/typography.sass for defining basic typography (h1, h2, ..., hr, etc).
-- /img folder has: the favicon.ico and should have all images that will be included in the project (may be subdivided into subfolders also, depending on the project necessity).
+    - src/assets/css folder has: 0-tools/normalize.scss for normalizing the project between browsers and 0-tools/reset.scss for removing all the default styles from html; 1-base/base.sass for basic html and body styles, 1-base/material.sass for customizing Material Design components (Angular Material), 1-base/theme.sass for customizing Angular Material basic theme, 1-base/typography.sass for defining basic typography (h1, h2, ..., hr, etc).
+    - /img folder has: the favicon.ico and should have all images that will be included in the project (may be subdivided into subfolders also, depending on the project necessity).
 2. The src/app folder already has some basic empty pages, components, modules, routes and services with the identifiers .page, .component, .module, .routes, .service. Every .page and .route are @NgModules (as well as .modules), but the identifiers are used to find these files easier when developing.
-- This folder has the subfolders /pages that have the pages (with components, modules, services, etc) of the web applications and /shared that keeps modules and components shared between many pages.
+    - This folder has the subfolders /pages that have the pages (with components, modules, services, etc) of the web applications and /shared that keeps modules and components shared between many pages.
 
 ## What the developer must change to begin development
 1. src/assets/css/0-tools/color-palette.scss: The color palette that will theme the app (colors: primary, accent, warn, foreground, background)
