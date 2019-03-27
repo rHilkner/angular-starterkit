@@ -26,6 +26,16 @@ This is a basic StarterKit for an Angular project. You can clone this repo and w
 ## Possible next updates
 - Add Firebase module/service for basic Firebase operations
 
+## How to import this project
+1. Import the project: `git clone https://github.com/rHilkner/angular-starterkit.git`
+2. Go to the project folder: `cd angular-starterkit`
+3. Delete node_modules folder inside angular-project: `rm -rf node_modules`
+4. Reinstall modules: `npm install`
+5. Start the application: `ng serve` or `npm start`
+6. Open the website at the URL: `http://localhost:4200/`
+
+# Default README.md from Angular
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
